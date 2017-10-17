@@ -1,7 +1,9 @@
 import click
 import sys
 
-@click.group()
+from aiida.cmdline.commands import data_plug
+
+@data_plug.group('factors')
 def cli():
     """Command line interface for template plugin"""
     pass

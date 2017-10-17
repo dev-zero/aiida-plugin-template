@@ -26,6 +26,9 @@
         ],
         "console_scripts": [
             "aiida-template-factors = aiida_template.console_scripts.data_cli:cli"
+        ],
+        "aiida.cmdline.data": [
+            "template.factors = aiida_template.console_scripts.data_cli:cli"
         ]
     },
     "scripts": ["examples/cli.py"]
